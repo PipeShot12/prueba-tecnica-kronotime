@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/*Colors */
+:root{
+  --primary: black;
+  --secondary: #0089CF;
+  --text-color: white;
+  --font-body: 'Poppins', sans-serif;
+  --font-heading:'Open Sans', sans-serif;
+  --button-sale : #D63B33;
+}
+/* normalize */
+
+body{
+  margin: 0;
+  scroll-behavior: smooth;
+  color: var(--text-color);
+  font-family: var(--font-body);
+}
+
+/*total box define by padding,borders,and content*/
+
+*{
+  box-sizing: border-box;
+}
+/* default settings swiper react */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* custom scrol */
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2e586d
+}
