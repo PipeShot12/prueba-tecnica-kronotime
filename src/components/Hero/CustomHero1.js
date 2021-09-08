@@ -57,8 +57,8 @@ bottom: 5vh;
 }
 @media(min-width:${mediaQuery.desktop}){
 top: 50%;
-position: absolute;
 left: 0;
+bottom: auto;
 transform: translateX(0);
 transform: translateY(-50%);
 width: 40%;
@@ -67,19 +67,19 @@ width: 40%;
 top: 50%;
 position: absolute;
 left: 0;
+bottom: auto;
 transform: translateX(0);
 transform: translateY(-50%);
 width: 40%;
 & > h3{
-font-size: 2.2em;
-margin-bottom: 0.5vh;
+font-size: 2.5em;
 }
 & > h4{
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 & > a {
 padding:0.5vh 0.5vh;
-font-size: 1.2em;
+font-size: 1.5em;
 }
 }
 `

@@ -88,23 +88,7 @@ margin-bottom: 0.5vh;
 }
 & > a {
 padding:0.5vh 0.5vh;
-font-size: 1.2em;
+font-size: 1.5em;
 }
 }
-/* @media (orientation: landscape) and (max-width:1024px ){
-& > h3{
-    font-size: 6vh;
-    margin-bottom: 1.5vh;
-}
-& > h4{
-    font-size: 8vh;
-}
-& > h5{
-    font-size: 5vh;
-}
-& > a {
-    padding: 0.5vh 0.2vh;
-    font-size: 5vh;
-  }
-} */
 `
