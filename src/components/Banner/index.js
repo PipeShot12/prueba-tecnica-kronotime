@@ -27,6 +27,7 @@ cursor: pointer;
 &:hover{
 background:url('https://images.unsplash.com/photo-1507680576301-98c2029cf434?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
 background-size: cover;
+background-position: 100% 80%;
 transform: scale(1.1);
 }
 display:grid;

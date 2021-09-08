@@ -23,7 +23,7 @@ export default function SliderItems () {
   const buttonDesktop = {
     width: '25%',
     textAlign: 'center',
-    fontSize: '2em',
+    fontSize: '1.5em',
     padding: '1vh 2vh',
     marginTop: '3em'
   }
