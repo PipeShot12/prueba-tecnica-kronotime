@@ -40,7 +40,7 @@ font-size:7.5vh;
 transition: color .4s ease-in-out;
 user-select: none;
 }
-@media(min-width:${mediaQuery.desktop}){
+@media(min-width:${mediaQuery.laptop}) and (max-width:${mediaQuery.desktop}){
   
   background: linear-gradient(rgba(0, 137, 207, 0.45),rgba(0, 137, 207, 0.45)),
   url(${banner});
