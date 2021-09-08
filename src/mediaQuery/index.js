@@ -1,7 +1,6 @@
 const mediaQuery = {
-  desktop: '1200px',
+  desktop: '1336px',
   laptop: '1024px',
-  small: '300px',
-  highResolution: '1800px'
+  small: '300px'
 }
 export default mediaQuery

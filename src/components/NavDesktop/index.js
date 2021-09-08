@@ -66,7 +66,7 @@ a{
 }
 @media(min-width:${mediaQuery.laptop}) and (max-width:${mediaQuery.desktop}){
 & > li {
-  font-size: 0.8em;
+  font-size: 0.9em;
   }
 }
 `

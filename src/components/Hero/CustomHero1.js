@@ -57,6 +57,7 @@ bottom: 5vh;
 }
 @media(min-width:${mediaQuery.desktop}){
 top: 50%;
+position: absolute;
 left: 0;
 transform: translateX(0);
 transform: translateY(-50%);
@@ -64,6 +65,7 @@ width: 40%;
 }
 @media(min-width:${mediaQuery.laptop}) and (max-width:${mediaQuery.desktop}){
 top: 50%;
+position: absolute;
 left: 0;
 transform: translateX(0);
 transform: translateY(-50%);
