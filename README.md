@@ -7,4 +7,5 @@ Este proyecto es inicializo con create-react-app
 para estilos se uso styled-components
 para carrusel de relojces swiper y el hero con 2 fotos
  
-
+ ## Gracias
+ 
