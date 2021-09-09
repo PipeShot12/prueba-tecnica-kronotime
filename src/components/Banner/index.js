@@ -46,7 +46,7 @@ user-select: none;
   background: linear-gradient(rgba(0, 137, 207, 0.45),rgba(0, 137, 207, 0.45)),
   url(${banner});
   background-size: cover;
-  background-position: 100% 80%;
+  background-position: center;
   height: 50vh;
   h2{
   font-size: 15vh;
@@ -54,7 +54,7 @@ user-select: none;
   &:hover{
   background:url(${banner});
   background-size: cover;
-  background-position: 100% 80%;
+  background-position: center;
   transform: scale(1.1);
   }
 }
